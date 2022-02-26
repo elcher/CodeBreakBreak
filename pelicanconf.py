@@ -1,7 +1,7 @@
 from datetime import datetime
 
 AUTHOR = "Longcan Huang"
-SITEURL = "http://localhost:8000"
+SITEURL = "https://elcher.github.io/CodeBreakBreak"
 SITENAME = "Code Break Break"
 SITETITLE = "Code Break Break"
 # SITESUBTITLE = "Web Developer"
@@ -23,7 +23,7 @@ THEME = "/home/elch/pelican-themes/Flex"
 # JINJA_ENVIRONMENT = {"extensions": ["jinja2.ext.i18n"]}
 
 PATH = "content"
-# OUTPUT_PATH = "output/"
+OUTPUT_PATH = "output/"
 TIMEZONE = "America/Los_Angeles"
 
 DISABLE_URL_HASH = True
