@@ -42,4 +42,4 @@ PLUGINS = [nb_markup]
 
 IGNORE_FILES = [".ipynb_checkpoints"]
 
-THEME = "/home/elch/pelican-themes/mnmlist"
+THEME = "/home/elch/pelican-themes/Flex"
