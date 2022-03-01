@@ -1,4 +1,5 @@
 from datetime import datetime
+import os
 
 AUTHOR = "Longcan Huang"
 SITEURL = "https://elcher.github.io/CodeBreakBreak"
@@ -14,7 +15,7 @@ PYGMENTS_STYLE = "monokai"
 
 ROBOTS = "index, follow"
 
-THEME = "/home/elch/pelican-themes/Flex"
+THEME = os.path.join(os.path.expanduser("~"), "pelican-themes/Flex")
 
 
 # Enable i18n plugin.
